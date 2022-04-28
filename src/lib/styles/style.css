@@ -3,10 +3,6 @@ body {
   background: #eee;
   color: #333;
   font-family: sans-serif;
-
-  p {
-    color: blue;
-  }
 }
 
 main {
