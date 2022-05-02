@@ -1,10 +1,21 @@
-<script type="ts">
-  export let title
-  export let date
+<script>
+  // ... Other props here
+  export let categories;
 </script>
 
-<h1>{title}</h1>
+<!-- ...Post HTML here -->
 
-<p>Published: {date}</p>
-
-<slot />
+{#if categories.length}
+  <aside>
+    <h2>Posted in:</h2>
+    <ul>
+      {#each categories as category}
+        <li>
+          <a href="/blog/categories/{category}">
+            {category}
+          </a>
+        </li>
+      {/each}
+    </ul>
+  </aside>
+{/if}
