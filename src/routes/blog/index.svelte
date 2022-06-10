@@ -1,29 +1,23 @@
-<script context="module">
-  export const load = async ({ fetch }) => {
-    const posts = await fetch('/api/posts.json')
-    const allPosts = await posts.json()
-  
+<script context="module" lang="ts">
+  import type { LoadOutput, ExternalFetch } from '@sveltejs/kit'
+
+  export const load = async ({ fetch }): Promise<LoadOutput> => {
+    const res = await fetch('/api/posts.json')
+    const posts = await res.json()
+
     return {
       props: {
-        posts: allPosts
+        posts
       }
     }
-  }
-  </script>
-
-<script>
-  export let posts
+}
 </script>
 
-<ul>
-  {#each posts as post}
-    <li>
-      <h2>
-        <a href={post.path}>
-          {post.meta.title}
-        </a>
-      </h2>
-      Published {post.meta.date}
-    </li>
-  {/each}
-</ul>
+<script lang="ts">
+  import PostList from '$lib/components/PostList.svelte'
+  import type { Post } from '$lib/types'
+
+  export let posts: Post[] = [];
+</script>
+
+<PostList posts={posts} />
