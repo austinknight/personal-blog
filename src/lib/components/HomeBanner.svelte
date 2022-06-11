@@ -2,15 +2,10 @@
   import photo from '$lib/assets/austin.png';
 </script>
 
-<div class="content-container">
-  <img src={photo} alt="Austin Knight" />
-  <div class="content">
-    <h1>I'm Austin Knight, a frontend software engineer, washed-up designer, and weekend home-remodeler</h1>
-    <p>Among other things...</p>
-  </div>
-</div>
-
 <style>
+  .home-banner {
+    margin-bottom: 110px;
+  }
   img {
     width: 175px;
     height: 175px;
@@ -29,3 +24,11 @@
     }
   }
 </style>
+
+<div class="content-container home-banner">
+  <img src={photo} alt="Austin Knight" />
+  <div class="content">
+    <h1>I'm Austin Knight, a frontend software engineer, washed-up designer, and weekend home-remodeler</h1>
+    <p>Among other things...</p>
+  </div>
+</div>

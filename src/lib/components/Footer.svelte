@@ -17,7 +17,6 @@
 
   ul {
     margin: 0;
-    list-style-type: none;
     display: flex;
     padding: 0;
   }

@@ -25,6 +25,7 @@
 <HomeBanner />
 
 <div class="content-container">
+  <div />
   <PostList posts={posts} />
 </div>
 
