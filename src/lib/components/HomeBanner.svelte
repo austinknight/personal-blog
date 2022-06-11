@@ -2,7 +2,7 @@
   import photo from '$lib/assets/austin.png';
 </script>
 
-<div class="wrapper">
+<div class="content-container">
   <img src={photo} alt="Austin Knight" />
   <div class="content">
     <h1>I'm Austin Knight, a frontend software engineer, washed-up designer, and weekend home-remodeler</h1>
@@ -21,10 +21,11 @@
     margin-bottom: var(--spacing-15);
   }
 
-  .wrapper {
-    display: grid;
-    grid-template-columns: 175px 2fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 65px;
+  @media (max-width: 900px) {
+    img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 25px;
+    }
   }
 </style>

@@ -1,34 +1,12 @@
-<header>
-  <div class="content-container">
-    <div />
-    <nav>
-      <ul>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/blog">Blog</a>
-        </li>
-        <li>
-          <a href="/projects">Projects</a>
-        </li>
-        <li>
-          <a href="/contact">Say Hi</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
 <style>
-  header {
-    padding: 50px 0 50px 0;
+  footer {
+    padding: 50px 0 75px 0;
     margin: 0 auto;
     max-width: 1280px;
   }
 
   @media (max-width: 900px) {
-    header {
+    footer {
       padding: 25px 0;
     }
   }
@@ -63,3 +41,25 @@
     padding-bottom: 4px;
   }
 </style>
+
+<footer>
+  <div class="content-container">
+    <div />
+    <nav>
+      <ul>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
+        <li>
+          <a href="/projects">Projects</a>
+        </li>
+        <li>
+          <a href="/contact">Say Hi</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
