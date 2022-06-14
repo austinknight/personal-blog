@@ -1,6 +1,9 @@
 <script>
   import comment from '$lib/assets/comment.png';
   import twitter from '$lib/assets/twitter.png';
+  import { page } from '$app/stores';
+
+  $: activeRoute = $page.routeId;
 </script>
 
 <header>
@@ -10,16 +13,16 @@
       <nav>
         <ul>
           <li>
-            <a href="/about">About</a>
+            <a class:active={activeRoute === ''} href="/">Home</a>
           </li>
           <li>
-            <a href="/blog">Blog</a>
+            <a class:active={activeRoute === 'articles'} href="/articles">Articles</a>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <a class:active={activeRoute === 'about'} href="/about">About</a>
           </li>
           <li>
-            <a href="/contact">Say Hi<img class="comment-icon" src={comment} alt="comment icon" /></a>
+            <a href="https://twitter.com/austinknight">Say Hi<img class="comment-icon" src={comment} alt="comment icon" /></a>
           </li>
         </ul>
         <a class="twitter-icon" href="https://twitter.com/austinknight"><img src={twitter} alt="Twitter icon" /></a>
@@ -71,7 +74,8 @@
     position: relative;
   }
 
-  a:hover {
+  a:hover,
+  .active {
     color: #000;
     border-bottom-color: #000;
   }

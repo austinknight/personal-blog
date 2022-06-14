@@ -1,3 +1,9 @@
+<script>
+  import { page } from '$app/stores';
+
+  $: activeRoute = $page.routeId;
+</script>
+
 <style>
   footer {
     padding: 50px 0 75px 0;
@@ -59,16 +65,16 @@
       <nav>
         <ul>
           <li>
-            <a href="/about">About</a>
+            <a class:active={activeRoute === ''} href="/">Home</a>
           </li>
           <li>
-            <a href="/blog">Blog</a>
+            <a class:active={activeRoute === 'articles'} href="/articles">Articles</a>
           </li>
           <li>
-            <a href="/projects">Projects</a>
+            <a class:active={activeRoute === 'about'} href="/about">About</a>
           </li>
           <li>
-            <a href="/contact">Say Hi</a>
+            <a href="https://twitter.com/austinknight">Say Hi</a>
           </li>
         </ul>
         <p class="copyright">&copy;2022 Austin Knight</p>

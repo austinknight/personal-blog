@@ -12,10 +12,6 @@
     margin-right: 55px
   }
 
-  h1 {
-    margin-bottom: var(--spacing-15);
-  }
-
   @media (max-width: 900px) {
     img {
       width: 100px;

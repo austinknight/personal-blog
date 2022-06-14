@@ -11,7 +11,7 @@
     <ul>
       {#each categories as category}
         <li>
-          <a href="/blog/categories/{category}">
+          <a href="/articles/categories/{category}">
             {category}
           </a>
         </li>

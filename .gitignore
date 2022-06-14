@@ -6,4 +6,4 @@ node_modules
 .env
 .env.*
 !.env.example
-/src/routes/blog/_posts/drafts
+/src/routes/articles/_posts/drafts

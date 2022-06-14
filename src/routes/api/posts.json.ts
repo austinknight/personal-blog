@@ -1,6 +1,6 @@
 // posts.json.js
 export const get = async () => {
-  const allPostFiles = import.meta.glob('../blog/*.md')
+  const allPostFiles = import.meta.glob('../articles/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
 
   console.log('!!!! ', allPostFiles)

@@ -20,4 +20,7 @@
   export let posts: Post[] = [];
 </script>
 
-<PostList posts={posts} />
+<div class="content-container">
+  <div />
+  <PostList posts={posts} />
+</div>

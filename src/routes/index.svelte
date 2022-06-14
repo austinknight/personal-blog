@@ -22,11 +22,20 @@
   export let posts: Post[] = [];
 </script>
 
+<style>
+  .all-articles {
+    display: flex;
+  }
+</style>
+
 <HomeBanner />
 
 <div class="content-container">
   <div />
-  <PostList posts={posts} />
+  <div>
+    <PostList posts={posts} />
+    <a class="all-articles" href="/articles">See All Articles <span class="material-symbols-outlined">chevron_right</span></a>
+  </div>
 </div>
 
 

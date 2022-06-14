@@ -10,7 +10,7 @@
   .post-item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 65px;
+    margin-bottom: 45px;
   }
   .post-date {
     font-style: italic;
