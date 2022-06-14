@@ -3,6 +3,7 @@
   --font-family-heading: 'Familjen Grotesk', sans-serif;
 
   --color-link-text: #232CFE;
+  --color-yellow: #FEB123;
 
   --spacing-15: 15px;
 }
@@ -17,7 +18,7 @@ body {
   background: #fff;
   color: #000;
   font-family: var(--font-family-heading);
-  border: 26px #FEB123 solid;
+  border: 26px var(--color-yellow) solid;
   border-top: 0;
   font-size: 1.6rem;
   overflow: auto;

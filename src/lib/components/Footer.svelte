@@ -12,7 +12,8 @@
   }
 
   nav {
-    flex: 1;
+    display: flex;
+    justify-content: space-between;
   }
 
   ul {
@@ -24,8 +25,7 @@
   li {
     font-weight: 500;
     font-size: 2rem;
-    line-height: 2rem;
-    border-bottom: 2px solid var(--color-link-text);
+    line-height: 3rem;
     padding-bottom: 2px;
     margin-right: 50px;
   }
@@ -37,28 +37,42 @@
   }
 
   a {
-    padding-bottom: 4px;
+    border-bottom: 2px solid var(--color-link-text);
+  }
+
+  a:hover {
+    color: #000;
+    border-bottom-color: #000;
+  }
+
+  .copyright {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 </style>
 
 <footer>
   <div class="content-container">
     <div />
-    <nav>
-      <ul>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/blog">Blog</a>
-        </li>
-        <li>
-          <a href="/projects">Projects</a>
-        </li>
-        <li>
-          <a href="/contact">Say Hi</a>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <li>
+            <a href="/projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact">Say Hi</a>
+          </li>
+        </ul>
+        <p class="copyright">&copy;2022 Austin Knight</p>
+      </nav>
+    </div>
   </div>
 </footer>

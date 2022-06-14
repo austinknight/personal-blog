@@ -17,12 +17,18 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
+    margin-bottom: 5px;
   }
 
   .post-title {
     font-weight: 600;
     font-size: 28px;
     line-height: 35px;
+    margin-bottom: 5px;
+  }
+
+  a:hover {
+    border-bottom: 2px solid var(--color-link-text);
   }
 </style>
 

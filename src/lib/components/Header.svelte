@@ -1,22 +1,30 @@
+<script>
+  import comment from '$lib/assets/comment.png';
+  import twitter from '$lib/assets/twitter.png';
+</script>
+
 <header>
   <div class="content-container">
     <div />
-    <nav>
-      <ul>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/blog">Blog</a>
-        </li>
-        <li>
-          <a href="/projects">Projects</a>
-        </li>
-        <li>
-          <a href="/contact">Say Hi</a>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <li>
+            <a href="/projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact">Say Hi<img class="comment-icon" src={comment} alt="comment icon" /></a>
+          </li>
+        </ul>
+        <a class="twitter-icon" href="https://twitter.com/austinknight"><img src={twitter} alt="Twitter icon" /></a>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -34,7 +42,8 @@
   }
 
   nav {
-    flex: 1;
+    display: flex;
+    justify-content: space-between;
   }
 
   ul {
@@ -46,8 +55,7 @@
   li {
     font-weight: 500;
     font-size: 2rem;
-    line-height: 2rem;
-    border-bottom: 2px solid var(--color-link-text);
+    line-height: 3rem;
     padding-bottom: 2px;
     margin-right: 50px;
   }
@@ -59,6 +67,30 @@
   }
 
   a {
-    padding-bottom: 4px;
+    border-bottom: 2px solid var(--color-link-text);
+    position: relative;
   }
+
+  a:hover {
+    color: #000;
+    border-bottom-color: #000;
+  }
+
+  .comment-icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -20px;
+    right: -35px;
+  }
+
+  .twitter-icon {
+    border-bottom: none;
+  }
+  .twitter-icon img {
+    width: 29px;
+    height: 29px;
+  }
+
+
 </style>
