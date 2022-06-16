@@ -47,8 +47,8 @@
   }
 
   a:hover {
-    color: #000;
-    border-bottom-color: #000;
+    color: var(--color-body-text);
+    border-bottom-color: var(--color-body-text);
   }
 
   .copyright {
