@@ -1,0 +1,1 @@
+import{S as n,i as a,s as r}from"../../../chunks/index-bd948dec.js";const u=async({params:t,fetch:s})=>{const o=t.category;return{props:{posts:(await(await s("/api/posts.json")).json()).filter(e=>e.meta.categories.includes(o))}}};class g extends n{constructor(s){super(),a(this,s,null,null,r,{})}}export{g as default,u as load};
