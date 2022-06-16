@@ -1,4 +1,4 @@
-import { mdsvex } from 'mdsvex'
+import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
@@ -8,21 +8,25 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess({
-      postcss: true
-    }),
+			postcss: true
+		}),
 		mdsvex({
 			extensions: ['.md'],
 			layout: {
 				articles: 'src/routes/articles/_post.svelte'
 			}
-		}),
+		})
 	],
 
 	extensions: ['.svelte', '.md'],
 
 	kit: {
-		adapter: adapter()
-	},
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: null
+		})
+	}
 };
 
 export default config;
