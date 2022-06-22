@@ -34,7 +34,7 @@ const config = {
 			base: dev ? '' : ''
 		},
 		prerender: {
-			entries: ['/api/posts.json.ts']
+			default: true
 		}
 	}
 };
