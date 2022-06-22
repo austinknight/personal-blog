@@ -32,6 +32,9 @@ const config = {
 		appDir: 'internal',
 		paths: {
 			base: dev ? '' : ''
+		},
+		prerender: {
+			entries: ['api/posts.json.ts']
 		}
 	}
 };
