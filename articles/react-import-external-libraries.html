@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/internal/assets/pages/__layout.svelte-cb1e5b98.css">
+	<link rel="stylesheet" href="/internal/assets/_post-6bfa1793.css">
+	<link rel="modulepreload" href="/internal/start-71c2c922.js">
+	<link rel="modulepreload" href="/internal/chunks/index-bd948dec.js">
+	<link rel="modulepreload" href="/internal/pages/__layout.svelte-c5dd4bef.js">
+	<link rel="modulepreload" href="/internal/pages/articles/react-import-external-libraries.md-d30f80ea.js">
+	<link rel="modulepreload" href="/internal/chunks/_post-b8809705.js">
+	<link rel="modulepreload" href="/internal/chunks/index-70edd345.js">
+	</head>
+	<body>
+		<div>
+
+
+<header class="svelte-lsfa6o"><div class="content-container"><div></div>
+    <div><nav class="svelte-lsfa6o"><ul class="svelte-lsfa6o"><li class="svelte-lsfa6o"><a href="/" class="svelte-lsfa6o">Home</a></li>
+          <li class="svelte-lsfa6o"><a href="/articles" class="svelte-lsfa6o">Articles</a></li>
+          <li class="svelte-lsfa6o"><a href="/about" class="svelte-lsfa6o">About</a></li>
+          <li class="svelte-lsfa6o"><a href="https://twitter.com/austinknight" class="svelte-lsfa6o">Say Hi<img class="comment-icon svelte-lsfa6o" src="data:image/png;base64,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" alt="comment icon"></a></li></ul>
+        <a class="twitter-icon svelte-lsfa6o" href="https://twitter.com/austinknight"><img src="data:image/png;base64,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" alt="Twitter icon" class="svelte-lsfa6o"></a></nav></div></div>
+</header>
+
+<main><div class="content-container"><div></div>
+  <article><header class="svelte-1p1z96b"><h1>React - Import External Libraries With Webpack</h1>
+      <div class="dates svelte-1p1z96b"><p class="medium-text publish-date svelte-1p1z96b"><b>Published:</b> Jul 06, 2016</p></div></header>
+
+    <p>I’ve been writing a lot more with React these days, and along with React I’ve learned some new build tools that are commonly accepted among the React community, namely Webpack. If you are familiar with Webpack, you know it’s pretty simple to include a list of javascript files you want bundled. When using import or require statements to include module dependencies in components, Webpack goes out and includes those files in the bundle. It looks a little something like this when writing a React component:</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Twilio <span class="token keyword">from</span> <span class="token string">'twilio'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">myComponent</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+	<span class="token keyword">const</span> <span class="token function-variable function">handleClick</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+		Twilio<span class="token punctuation">.</span>Device<span class="token punctuation">.</span><span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+
+	<span class="token keyword">return</span> <span class="token punctuation">(</span>
+		<span class="token operator">&lt;</span>div<span class="token operator">></span>
+			<span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">&#123;</span>handleClick<span class="token punctuation">&#125;</span><span class="token operator">></span>Click It<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+		<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+	<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>I’m not going to go into how to set up webpack (<a href="https://webpack.github.io/docs/" rel="nofollow">you can read the docs here</a>), but based on how you’ve configured your build, webpack will know that it needs to include the Twilio module in the final bundle because we’ve explicitly imported it in this file. However, I ran into a tricky problem using a javascript client library from Twilio. The library is typical of most javascript client libraries in that it wants to add itself to the global window context of your application. A lot of modules I use in components are simply objects and functions that operate independent of window, but sometimes I need a client library of another application and those typically use window. Unfortunately, modules that depend on the global window context don’t play nice with the Webpack bundler, because webpack won’t execute scripts in the global context by default. One solution to this problem could be to load this dependency that relies on window by using one script tag to load window dependent modules and another script tag to load the bundled js file that includes the rest of the application, but that extracts code out of the managed bundle and the window dependent modules may not be accessible when you expect it them be in your components. To get around this, webpack has a handy little loader, conveniently called the ”<a href="https://github.com/webpack/script-loader" rel="nofollow">script loader</a>”. It allows us to require a script in a component, like any other module dependency, but it tells webpack to execute the file in the global context once, and will not parse the require statement for that file. This basically behaves the same as loading the file in a script tag, but it gives the guarantee of being accessible within the module that needs it.</p>
+<p>In order to use the script loader, it will need to be installed via NPM. Once installed, you should be able to require the module that depends on window using the script loader syntax. The syntax is a simple require statement with script! prepended to the file path of the script. Webpack will pick up this syntax and handle loading the file appropriately.</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript">  <span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+  <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'script!../path/to/your/script/twilio-client.js'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> <span class="token function-variable function">myComponent</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">const</span> <span class="token function-variable function">handleClick</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+    Twilio<span class="token punctuation">.</span>Device<span class="token punctuation">.</span><span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span>
+
+  <span class="token keyword">return</span><span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">></span>
+      <span class="token operator">&lt;</span>button onClick<span class="token operator">=</span><span class="token punctuation">&#123;</span>handleClick<span class="token punctuation">&#125;</span><span class="token operator">></span>Click It<span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+  <span class="token punctuation">)</span></code><!-- HTML_TAG_END --></pre>
+<p>Now that the script is loading through the script loader, we can just access the module like any other standard global method. It’s not necessary to assign the require statement to a named variable because the script loader will just execute the script, which will place the module’s methods onto the global window context as expected.</p></article></div></main>
+
+<footer class="svelte-1jb8pfn"><div class="content-container"><div></div>
+    <div><nav class="svelte-1jb8pfn"><ul class="svelte-1jb8pfn"><li class="svelte-1jb8pfn"><a href="/" class="svelte-1jb8pfn">Home</a></li>
+          <li class="svelte-1jb8pfn"><a href="/articles" class="svelte-1jb8pfn">Articles</a></li>
+          <li class="svelte-1jb8pfn"><a href="/about" class="svelte-1jb8pfn">About</a></li>
+          <li class="svelte-1jb8pfn"><a href="https://twitter.com/austinknight" class="svelte-1jb8pfn">Say Hi</a></li></ul>
+        <p class="copyright svelte-1jb8pfn">©2022 Austin Knight</p></nav></div></div></footer>
+
+
+		<script type="module" data-hydrate="1nzv4s1">
+		import { start } from "/internal/start-71c2c922.js";
+		start({
+			target: document.querySelector('[data-hydrate="1nzv4s1"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/internal/pages/__layout.svelte-c5dd4bef.js"),
+						import("/internal/pages/articles/react-import-external-libraries.md-d30f80ea.js")
+				],
+				params: {},
+				routeId: "articles/react-import-external-libraries"
+			}
+		});
+	</script></div>
+	</body>
+</html>
