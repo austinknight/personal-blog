@@ -1,7 +1,7 @@
 ---
 title: Rebuilding My Blog With SvelteKit
 preview: I completed another iteration of my blog using SvelteKit this time around. Take a look at some of the cool stuff going on with this new framework and why you should consider checking it out too!
-date: 07-05-2022
+date: 07-06-2022
 categories:
   - svelte
 tags:
