@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+		<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/internal/assets/pages/__layout.svelte-a52ac8b4.css">
+	<link rel="stylesheet" href="/internal/assets/_post-0cf44ba5.css">
+	<link rel="modulepreload" href="/internal/start-65aa4968.js">
+	<link rel="modulepreload" href="/internal/chunks/index-bd948dec.js">
+	<link rel="modulepreload" href="/internal/pages/__layout.svelte-6905f6ec.js">
+	<link rel="modulepreload" href="/internal/pages/articles/rebuilding-with-sveltekit.md-967bdec8.js">
+	<link rel="modulepreload" href="/internal/chunks/_post-3091f67d.js">
+	<link rel="modulepreload" href="/internal/chunks/index-70edd345.js">
+	</head>
+	<body>
+		<div>
+
+
+<header class="svelte-b06gkd"><div class="content-container"><div></div>
+    <div><nav class="svelte-b06gkd"><ul class="svelte-b06gkd"><li class="svelte-b06gkd"><a href="/" class="svelte-b06gkd">Home</a></li>
+          <li class="svelte-b06gkd"><a href="/articles" class="svelte-b06gkd">Articles</a></li>
+          <li class="svelte-b06gkd"><a href="/about" class="svelte-b06gkd">About</a></li>
+          <li class="svelte-b06gkd"><a href="https://twitter.com/austinknight" class="svelte-b06gkd">Say Hi<img class="comment-icon svelte-b06gkd" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAhOSURBVHgB1Vl7cJXFFf/tdx+5STC5IeT9JMFAag2MWAarHRCbImCE6TiOgNCxQAk+6iP28UdHcZwCM23BOoCl4zjtyMP+0dEODIr/FLUkI2BqEhORJJPE5CYhLxPyuq9v17P7ffcFN4kYTYZzZ/N9u9/u2d+ePXvO2RMmiHATkIabhG4aoFbMAEnt6unpQfuX7WhtbYXL1UWlA+PjbmRnZ2LN2jUoKSmZlAebro4KAwmGh4cVmMuXG9Hp6kRbWxu6u7rR3NSEK729GB8bC0cOZ1IS7PYY9Pb2yCpWrlyBl17ejZycnG8PVHbweX3o7u42JNLRgfYOl3o2NjYSwF4M9PebHKlwwBHrQFpaGgoKC5CRnoG8/FxkZGagqGghUlJSkJTkVJIeHBzEsTeP4/Dh1zB3bhKOHn8T+fn5UwOVlbq6OlSdq0JrSys6aIuam5sVGME5OHWXWBhjCkh2TjZy83KRmZGltjGXJpmfn4d5BMaiaVEWLczV0HOceI67gDEXmtv7sKl8Lxxz0nHq9EkkJiZMDFRu34sv7MY7b7+jVpuQkIjUtBQUFxfTM41WmofU1FQsWLAA6elpiIuLiwqE0U8x9V2FcF8hxo2Am7Z4pBlsnOojTYCnF8w/ZoI26Nxlga0HgSeefAIVFc+Ff4oEWrauDPX1Ddi2Yzu2b99GEktFVFJCIUjcTxLpAkbbSDpSMu30pPrVLwhYL+AdCJ/rGxDDY4c4/t/hwAcn/wJnwf3BL8FTv3//AQJZjyN/P4LSn5VGSEhc+Ygm/wyCgLCxTipthqR0n+rBbhDOxCTwq1KGRw+68d9/PI71z78LLWFhCGhnZyfeeP0NPLJpYwRIXW5VNW3B0GckwEg4LMrbd0FL5gtYabcaaIPW1+0Gv/sYGXvNMPgfnP0Qo6NjKC8vDw7wy+2s3AQ2WK9AzhTF2hictwADwzRn/wWg77xqV0BPnz6N3NwcVSQJwcEqt0Jz92PGifTfYWdw+w3rgp4PDaDyKDU2NmERnexg37Z/Q5OHYzaIzJ7dIuD2mPWhz9VDk0voJRspbWGARPtbmD3iiCWJjnpNdXN3qQOt+Xx+cK7DEWNX7cLdTXr56XXDRcw8cIu0m9H0lbbFngRhjZtwemGbQ9/jYTrdSUhDXAxZOlOiTHcbrT6/T81ttdkMhiMt1xweBv6jw2Crq6CtqwEveuoaBAL89j8Aqz+GtrYG4ge/jYAi3/mt5TT+AtiaT8GLf4NJiQbEx9DWe00uQaBer7KDNqsBFL7hiHE8835YMkpVH/nTFj4FPu/O0Pfs9bDkP0aqpalFaYU7IOaGvgvqqy2qANNsyu1abt0JnrZiYqAkI7m5Xr8hLKF7DL4ej1c12O0GUMa9kePi8xFhNWkyFl8YrGtz5kdqg/qeGarOKVRjwpEw522YjBxWhnGfKVEuJUo66pdbTxSUKPdFDBIDFxGuV9J0oa8yUAPvrzIDjUALvfdfDDHoqyZXq0fy7PkfJiYBB0HxmDCYxCN0aF5TolZTooJ7Ioax/vPwX/ozOAUSnHw4r64g394R+AqNDDKvewni6iXw0S8hal9UbjY4fqQRevXT4GRmODkRf+0L0L6qw2QUY5U6qpnLZ0pPrV6vAdQR4witIBwo/SyXjwCyIPqZ11qOAlQm8l+WzvfIT79nvGNqio1hpKNczabiH32MJOozgNoCEhU+zDbZSUeFYGawQ1D9nrDLXUDhdQ9mlyjqH+OwmqJXsa0+Di3R6VTV4aEh44PwY3ZJwxedAguzQi1MkETlfSY+Pg4NDYZPFXx2t75rSOBCE0NJ2B1PWhrNZrPijqVLcerkKdUoDfNs0luVQunnxp8YZ179jc0ydHTXrp0YGRnBieMnIGIzp/TG3w8x1LYLHHwXeGg5cFuWeXxuIecSk2wAXX7Xcty7ahX27tmHWleCvA7NKEknUd0qsONvDNnJHM+sNc0g4RBp9xJIFrrc9Q8MYEPZBkoedOCBpcCiLOn/yRHQUuQJtFGxawIWelrJfNio3UJxozQldxdFWlDBOJq6KZjRGY2lYtWpf+CdeBEf41QztPQI/KsKOPaRQOZc4OiTArnJxpGX0RhbcZJccl7kLdTlcuGvB17F+2fep6szXXWVGQvcw0PrV6bMHGUhwPX7oYAEqKVXoPTl0B1edReBcYYOInC/l5EbAd+wjOF364Hk+AAfWmjxsxTEPG7UomVKZFNf9SvQGw7CT27aJwtn9C6g07t0Gj6S1j/PCpypFbh0QIMlbC0Vx3T85zzDvs3M6G8WH4330VidG+2cZk4l67h2MZAUHykMnnEfLHceCdr3qEkyGe2k3PEMdGci0Pw63Z16QhIIapXAH98WKCZ7ZwkqNcPZSwTyYw076dr70LLrOGMqEloMROF2CiefDjkhfIPck4JEd3jNN0qS9qtIRkZY7e2tWPngc9j9+23Y8vN7oA/W4LVXX8H+UwIP32XBvk0cMANwYSexFf1aORNlp5VT0cmH+xRPRtGVsFCskXg7WOqPwdRNIJKmTDsqj+tIp6glUh6H9p6glE8C7iv7BSob23DgT2fwSQ3w0x8y7HlEBEEqoAW/hKVgq8nvWv6I2n4djm+TdjxDh23Xzl2Ym5ys6jKT54xjePYBhs33iLBJSdfSV0Nbdmja2ZQbBlpbU4tHN2/BKDmIuPh4LF6yBOuWMpTlnKO7DsIgUsl+ENriPWAWB6ZLNwz04sVPoPv9KruXQylHzUtJsXNbKEsXCqalTori56HlPfyd5aWmlXEWZA24TPuMtiqpcWcJHYZVYPkbox6I6dD0gHq+oj8UeNtJVzWLKbvvJ0817Rz+TNFN8++brwHWe54ThYHImAAAAABJRU5ErkJggg==" alt="comment icon"></a></li></ul>
+        <a class="twitter-icon svelte-b06gkd" href="https://twitter.com/austinknight"><img src="data:image/png;base64,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" alt="Twitter icon" class="svelte-b06gkd"></a></nav></div></div>
+</header>
+
+<main><div class="content-container"><div></div>
+  <article class="post-content"><header class="svelte-j79g7l"><h1>Rebuilding My Blog With SvelteKit</h1>
+      <div class="dates svelte-j79g7l"><p class="medium-text publish-date svelte-j79g7l"><b>Published:</b> Jul 05, 2022</p></div></header>
+
+    <p>It’s that time again where I re-write my site from scratch! This is probably about the sixth re-write I’ve done here, and every time I’ve decided to do this, I end up picking a new technology to try out. “Why do I do this to myself?”, I think each time I get into it; Well for starters, it would be way less interesting to just redesign things. Doing a re-write is a great opportunity to learn something new that works well with the kind of content I want to produce here, and it supports getting some learning in for my day job after hours. I spend a lot less time these days actually studying like I did when I first entered the engineering world. At this point, nothing teaches me better than jumping straight into a project with a language or framework I want to check out and get some experience with.</p>
+<h2>Why Svelte and SvelteKit?</h2>
+<p>Back in late 2021 I was unfortunately part of a layoff at a seed-stage startup. I was writing a lot of React for many years prior to this event, and enjoyed the framework thoroughly. In fact, I didn’t really ever see myself moving on from React any time soon. Eventually I landed at a company writing Angular 1.x.x. Huh? That seems like a step back? Yes, it was, however what intrigued me was that the front-end team was migrating to a modern framework with Svelte, and doing so from the inside out. Oftentimes when a company transitions to a new front-end framework, it’s just a high-stakes big bang rewrite. Not so in this case. Before interviewing with this company, I had never even heard of <a href="https://svelte.dev/" rel="nofollow">Svelte</a>. There was a small coding exercise like most other interview processes, so in my typical fashion I figured why not just go all in and give Svelte a try here instead of using something I was already comfortable with? Long story short, as soon as I completed the exercise and experienced what Svelte could do, I was hooked! I landed the job and have been writing with Svelte ever since (fortunately most of the Angular work has been deleting it, the best kind of engineering in my opinion).</p>
+<p>Since I’ve been engineering with Svelte for close to two years now, I’ve mostly reached for things within the Svelte ecosystem. SvelteKit is a framework for building web applications of all sizes, utilizing a flexible file-based routing system. Everything you’d need for an app comes right out of the box and only takes a minute to bootstrap a new project. In React, it would be similar to something like Gatsby. On top of SvelteKit using Svelte and compiling nicely, I wanted to stick with a statically-generated build so that I could continue to host this site on GitHub Pages. I previously used Jekyll, as GitHub Pages is actually powered by it. It worked, but it was also way more work and I love the flexibility and simplicity Svelte provides.</p>
+<h2>The Interesting Parts of SvelteKit</h2>
+<p>I won’t get into the how of building this site, as I mostly followed a couple of excellent tutorials already out there. Instead, let me tell you some of the cool parts I came across while building this out. All in all, designing and rewriting everything for this site only took about two days. Design was done roughly in Figma, and the rest with a terminal and VS Code. No database or anything was necessary, so pretty simple stuff here. I’ve tried to keep the design and engineering as straightforward as possible as the years have progressed.</p>
+<p>Here are some of the key things I liked:</p>
+<ul><li><p><strong>Starting a new app is one command away</strong> – Just run <code>npm create svelte my-app</code>, answer a few questions, and your app scaffolds into a new folder. Do a <code>yarn install</code> and <code>yarn dev</code> and you’re up and running.</p></li>
+<li><p><strong>File-based routing</strong> – Structure of the app is defined by the structure of the codebase. The contents of <code>src/routes</code> become pages at that same relative route. So, if I have a file at <code>src/routes/about.svelte</code>, I will have an about page available at <code>austinknight.dev/about</code>.</p></li>
+<li><p><strong>Layouts</strong> – Naming files with certain conventions gives you access to special powers. A file prefixed with <code>__layout.svelte</code> applies the code in that file to every page within the folder it lives in. You can have a layout file for each directory (or route) if you wanted. On top of this, child paths can inherit these layouts in their given hierarchy.</p></li>
+<li><p><strong>Aliased common components and utilities</strong> – A lot of stuff in a design is often reused across an application, this is why we have reusable components. SvelteKit provides an alias called <code>$lib</code> which points to <code>src/lib</code> and gives you a global access point for all your reusable stuff no matter how shallow or deep you are in your directory structure.</p></li>
+<li><p><strong>Global styling and scoped styles</strong> – Global styles can be added as plain old css files in the common <code>lib</code> folder. Since everything is a Svelte file, you can also add styles directly in those files with <code>&lt;style&gt;</code> tags which scope those styles directly to the component. This is a <a href="https://svelte.dev/tutorial/styling" rel="nofollow">native feature</a> of Svelte.</p></li>
+<li><p><strong>Writing articles in markdown with <a href="https://mdsvex.pngwn.io/" rel="nofollow">mdsvex</a></strong> – Converts markdown to HTML, allows markdown files to be used as components, and the best part: mdsvex lets you use Svelte components inside markdown 🤯</p></li>
+<li><p><strong>Built-in endpoint generator</strong> – SvelteKit offers a type of route called an endpoint. Endpoints work the same as pages in that you access them by using the file path structure, except instead of the route returning HTML, and endpoint will return data. In order to make a route an endpoint, it just has to originate at the <code>src/routes/api</code> base-path. All an endpoint file needs is an exported function for each HTTP verb accepted (like get, post put, etc) and the function needs to return an object with a <code>status</code> and <code>body</code>. This is useful for generating things like posts, tags, comments list etc.</p></li>
+<li><p><strong>Static generator</strong> – I’ve already mentioned this as a selling point, but being able to compile things down to static files while still having the pre-build flexibility of Svelte is huge! I get so much done so fast with this setup. I can also build and deploy my site right from the command line where I am already working. Setting up SvelteKit to do this does not come out of the box. SvelteKit’s documentation does mention something like Gatsby may get you going faster with this, however it’s not too much overhead to achieve this.</p></li>
+<li><p><strong>RSS feed</strong> – Setting up an RSS feed is as simple as creating a route at <code>src/routes/rss</code> which is just <a href="https://github.com/austinknight/personal-blog/blob/master/src/routes/rss.xml.js" rel="nofollow">a file</a> that returns XML data. This is generated by requesting my <a href="/api/posts.json">post list endpoint</a> and formatting the data to work with the XML feed.</p></li></ul>
+<h2>Getting Started For Yourself</h2>
+<p>My list of interesting selling points for SvelteKit may be a bit long and I could probably continue on much longer, I just wanted to give my recommendation here like I would for other things I enjoy. If you’d like to get started with something like this, checkout the official <a href="https://svelte.dev/tutorial/basics" rel="nofollow">Svelte tutorial</a> as well as the <a href="https://kit.svelte.dev/docs/introduction" rel="nofollow">SvelteKit getting started docs</a> to learn more!</p>
+<p>For an in-depth, awesome tutorial on building a SvelteKit static markdown blog, check out <a href="https://joshcollinsworth.com/blog/accessible-toggle-buttons" rel="nofollow">Josh Collinsworth’s excellent tutorial</a> that I followed. He covers everything and more on getting up and running.</p>
+<p>I hope this article encourages you to at least check out the Svelte ecosystem. <a href="https://twitter.com/austinknight" rel="nofollow">Give me a shout</a> if you decide to go down this path, I’ll guide you as best I can along the way. If you liked this article, consider sharing it or <a href="https://twitter.com/austinknight" rel="nofollow">give me a follow</a> to stay up to date when the next one drops!</p></article></div></main>
+
+<footer class="svelte-nmfjke"><div class="content-container"><div></div>
+    <div><nav class="svelte-nmfjke"><ul class="svelte-nmfjke"><li class="svelte-nmfjke"><a href="/" class="svelte-nmfjke">Home</a></li>
+          <li class="svelte-nmfjke"><a href="/articles" class="svelte-nmfjke">Articles</a></li>
+          <li class="svelte-nmfjke"><a href="/about" class="svelte-nmfjke">About</a></li>
+          <li class="svelte-nmfjke"><a href="https://twitter.com/austinknight" class="svelte-nmfjke">Say Hi</a></li></ul>
+        <p class="copyright svelte-nmfjke">©2022 Austin Knight</p></nav></div></div></footer>
+
+
+		<script type="module" data-hydrate="1t9y36c">
+		import { start } from "/internal/start-65aa4968.js";
+		start({
+			target: document.querySelector('[data-hydrate="1t9y36c"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/internal/pages/__layout.svelte-6905f6ec.js"),
+						import("/internal/pages/articles/rebuilding-with-sveltekit.md-967bdec8.js")
+				],
+				params: {},
+				routeId: "articles/rebuilding-with-sveltekit"
+			}
+		});
+	</script></div>
+	</body>
+</html>
