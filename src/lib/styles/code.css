@@ -22,6 +22,17 @@ pre[class*="language-"] {
   margin: 25px 0;
 }
 
+:not(pre) > code {
+	color: #424242;
+	font-size: .8em;
+	background: #f1f5f5;
+	padding: 0.2em 0.3em;
+	border-radius: 2px;
+	border: 1px solid #e2e2e2;
+	line-height: 1!important;
+	white-space: nowrap;
+}
+
 pre > code[class*="language-"] {
 	font-size: 1.8rem;
 }

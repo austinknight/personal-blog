@@ -18,11 +18,28 @@
   header {
     margin-bottom: 50px;
   }
+
+  :global(.post-content ul) {
+    padding-left: 40px;
+  }
+  :global(.post-content ul li) {
+    list-style: disc;
+  }
+
+  code {
+    font-size: .8em;
+    background: hsla(var(--lightBlueHSL),.1);
+    padding: 0.2em 0.3em;
+    border-radius: 2px;
+    border: 1px solid hsla(var(--lightBlueHSL),.2);
+    line-height: 1!important;
+    white-space: nowrap;
+  }
 </style>
 
 <div class="content-container">
   <div />
-  <article>
+  <article class="post-content">
     <header>
       <h1>{title}</h1>
       <div class="dates">
