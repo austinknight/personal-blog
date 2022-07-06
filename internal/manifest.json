@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b7e6ef03.js",
+    "file": "start-fe53a6ec.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -116,7 +116,7 @@
     ]
   },
   "src/routes/articles/rebuilding-with-sveltekit.md": {
-    "file": "pages/articles/rebuilding-with-sveltekit.md-967bdec8.js",
+    "file": "pages/articles/rebuilding-with-sveltekit.md-90e2deb7.js",
     "src": "src/routes/articles/rebuilding-with-sveltekit.md",
     "isEntry": true,
     "isDynamicEntry": true,
