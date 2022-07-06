@@ -49,6 +49,16 @@
     justify-content: space-between;
   }
 
+  @media (max-width: 900px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .twitter-icon {
+      margin-top: 15px;
+    }
+  }
+
   ul {
     margin: 0;
     display: flex;

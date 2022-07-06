@@ -22,6 +22,16 @@
     justify-content: space-between;
   }
 
+  @media (max-width: 900px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .copyright {
+      margin-top: 15px;
+    }
+  }
+
   ul {
     margin: 0;
     display: flex;
