@@ -49,7 +49,7 @@
     justify-content: space-between;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 768px) {
     nav {
       flex-direction: column;
     }

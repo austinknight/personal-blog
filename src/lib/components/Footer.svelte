@@ -11,7 +11,7 @@
     max-width: 1280px;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 768px) {
     footer {
       padding: 25px 0;
     }
