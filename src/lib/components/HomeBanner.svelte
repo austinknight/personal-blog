@@ -9,6 +9,7 @@
   img {
     width: 175px;
     height: 175px;
+    border-radius: 100%;
     margin-right: 55px
   }
 

@@ -1,6 +1,11 @@
 <script>
   import photo from '$lib/assets/austin.png';
 </script>
+<style>
+  img {
+    border-radius: 100%;
+  }
+</style>
 <div class="content-container">
   <img src={photo} alt="Austin Knight" />
   <div>
